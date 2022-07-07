@@ -1,26 +1,19 @@
 {
-  "name": "embeddedjavascripthub",
+  "name": "express-crash-course",
   "version": "1.0.0",
-  "description": "<img src=\"https://github.com/johncuseyhub/GettingStarted/blob/main/HubBanner.png\" alt=\"John Cusey Hub Logo\" height=\"150\" width=\"1000\">",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/johncuseyhub/EmbeddedJavaScriptHub.git"
+    "devStart": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/johncuseyhub/EmbeddedJavaScriptHub/issues"
-  },
-  "homepage": "https://github.com/johncuseyhub/EmbeddedJavaScriptHub#readme",
   "dependencies": {
+    "ejs": "^3.1.8",
     "express": "^4.18.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.18"
   }
 }
