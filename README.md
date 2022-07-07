@@ -2,6 +2,8 @@
 
 # Embedded JavaScript Hub (EJS)
 
+[Notes](https://github.com/johncuseyhub/NotesHub/blob/main/EmbeddedJavaScriptHub.docx)     
+
 # Node Package Manager (NPM) Commends
 
 ## Download the Library packages from the pachage.json
