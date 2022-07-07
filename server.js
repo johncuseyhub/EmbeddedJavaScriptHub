@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 
     console.log("get route='/' ");
 
-    res.render("index");
+    res.render("index", {text:"Hello Wrold !"});
 })
 
 app.listen(3000)
