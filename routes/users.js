@@ -8,7 +8,12 @@ router.get("/",  (req, res) => {
 
 // http://localhost:3000/users/new
 router.get("/new",  (req, res) => {
-    res.send("User List")
+    res.send("Create List")
+})
+
+// http://localhost:3000/users/1
+router.get("/:id",  (req, res) => {
+    res.send(`Get User With ID ${req.params.id}`)
 })
 
 module.exports = router
